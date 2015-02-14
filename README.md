@@ -13,4 +13,5 @@ Add to /opt/bootlocal.sh
 /usr/local/sbin/bgpd -u root -d -A 127.0.0.1 -i /usr/local/var/quagga/bgpd.pid -f /usr/local/etc/quagga/bgpd.conf
 
 The files in /usr/local/sbin/\* are symlinks to /tmp/tcloop/quagga_rfc6506/usr/local/sbin/\*
-The files in /usr/local/lib/\* are symlinks to /tmp/tcloop/quagga_rfc6506/usr/local/libs/\*
+
+The files in /usr/local/lib/\* are symlinks to /tmp/tcloop/quagga_rfc6506/usr/local/libs/\*   
